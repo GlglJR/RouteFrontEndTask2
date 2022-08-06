@@ -1,0 +1,132 @@
+<html>
+
+    <head></head>
+
+    <body style="background-color: #A1C7E0">
+
+
+
+        <fieldset style="background-color: #ffffff">
+            
+            <legend style="background-color: #0099DD; width: max-width; height:max-content;"><h2>Personal Data</h2></legend> 
+        
+            <form>
+
+                <fieldset style="border: #b1b1b1; background-color: #026E81;">
+                    <legend style="background-color: #0099DD; height: 60px;"><h3>Your Name</h3></legend>
+                    <br><br>
+                    
+                    <table>
+                    
+                        <tr>
+                             <td>
+                                 <label for="Fname" style="color: #ffffff">First Name :</label>
+                             </td>
+                             <td>
+                                 <input id="Fname" placeholder="ex:Mostafa" name="Fname" required minlength="2" maxlength="12" type="text">
+                             </td>
+                         </tr>
+                    
+                         <tr>
+                             <td>
+                                 <label for="Sname" style="color: #ffffff">Second Name :</label>
+                             </td>
+                             <td>
+                                 <input id="Sname" placeholder="ex:Abd L-Galel" name="Sname" required minlength="2" maxlength="12" type="text">
+                             </td>
+                         </tr>
+                         
+                     </table>
+
+                </fieldset>
+                <br><br><br><br>
+                     
+                
+                    <table>
+                         
+                       
+                        <tr>
+                             <td>
+                                 <label for="PhNumber" ><b>Phone Number :</b></label>
+                             </td>
+                             <td>
+                                 <input id="PhNumber" placeholder="ex: 01005878694" type="number" max="11">
+                             </td>
+                         </tr>
+                         
+                         <tr>
+                             <td>
+                                 <label for="email" ><b>Email :</b></label>
+                             </td>
+                             <td>
+                                 <input id="email" placeholder="ex:abdelgalel2030@gmail.com" type="email" >
+                             </td>
+                         </tr>
+                         
+                         
+                         <tr>
+                             <td>
+                                 <label for="Password" ><b>Password :</b></label>
+                             </td>
+                             <td>
+                                 <input id="Password" type="password" name="Password" required>
+                             </td>
+                         </tr>
+                         
+                         <tr>
+                             <td>
+                                 <label for="RePassword" ><b>Re-Password :</b></label>
+                             </td>
+                             <td>
+                                 <input id="RePassword" type="password" name="Re-Password" required>
+                             </td>
+                         </tr>
+                    
+                    </table>
+                    <hr>
+
+
+                 <input id="male" value="male" name="gender" type="radio">
+                 <label for="male">Male</label>
+                 
+                 <br>
+                 
+                 <input id="female" value="Female" name="gender" type="radio">
+                 <label for="female">Female</label>
+
+                 <hr>
+
+                 <input id="Stu" value="Student" name="Statu" type="checkbox">
+                 <label for="Stu">Student</label>
+                 
+                 <br>
+                 
+                 <input id="Gaduated" value="Gaduated" name="Statu" type="checkbox">
+                 <label for="Grad">Graduated</label>
+
+                 <br><br>
+
+
+                 <select name="Universiy">
+
+                    <optgroup label="Public Unversity">
+                    <option value="Mans">Mansoura university</option>
+                    <option value="Cairo">Cairo university</option>
+                    </optgroup>
+
+                    <optgroup label="Private Unversity">
+                    <option value="Delta">Delta university</option>
+                    <option value="AUC">AUC university</option>
+                    </optgroup>
+
+                 </select>
+                 <br><br>
+                 <button>Submit</button>
+                 <button type="reset">Clear</button>
+
+             </form>
+
+        </fieldset>
+          
+    </body>
+</html>
